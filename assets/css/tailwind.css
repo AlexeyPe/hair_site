@@ -4,3 +4,9 @@
 
 @layer utilities {
 }
+
+@layer base {
+    html {
+        @apply scroll-smooth
+    }
+}
