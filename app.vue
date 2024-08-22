@@ -10,6 +10,5 @@ useSeoMeta({
 </script>
 
 <template>
-  <h1>Алексей Пе - окрашивание тотал блонд</h1>
-  <p>Параграф</p>
+  <MainHeader />
 </template>
