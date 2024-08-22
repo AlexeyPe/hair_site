@@ -10,5 +10,13 @@ useSeoMeta({
 </script>
 
 <template>
-  <MainHeader />
+  <MainHeader/>
+  <UContainer>
+    <p class="h-dvh place-content-center text-center">Введение</p>
+    <p class="h-dvh place-content-center text-center">Цены</p>
+    <p class="h-dvh place-content-center text-center">Где салон</p>
+    <p class="h-dvh place-content-center text-center">Кто я</p>
+    <p class="h-dvh place-content-center text-center">Фото</p>
+    <p class="h-dvh place-content-center text-center">Ссылки</p>
+  </UContainer>
 </template>
