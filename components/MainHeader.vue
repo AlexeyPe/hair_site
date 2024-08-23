@@ -1,7 +1,7 @@
 <template>
   <header class="fixed top-0 left-0 right-0">
     <UContainer class="flex items-center backdrop-blur">
-      <h1 class="tracking-tight font-medium text-xl lg:flex-1">Алексей Пе | окрашивание блонд</h1>
+      <h1 class="tracking-tight font-normal text-base lg:flex-1">Алексей Пе | окрашивание блонд</h1>
       <UHorizontalNavigation :links="links" class="w-min text-base"/>
       <div class="lg:flex-1 flex justify-end">
         <ButtonColorMode />
