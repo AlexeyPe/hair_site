@@ -11,12 +11,24 @@ useSeoMeta({
 
 <template>
   <MainHeader/>
-  <UContainer>
-    <p class="h-dvh place-content-center text-center">Введение</p>
-    <p class="h-dvh place-content-center text-center" id="price">Цены</p>
-    <p class="h-dvh place-content-center text-center" id="place">Где салон?</p>
-    <p class="h-dvh place-content-center text-center" id="who_am_I">Кто я</p>
-    <p class="h-dvh place-content-center text-center">Фото</p>
-    <p class="h-dvh place-content-center text-center">Ссылки</p>
+  <UContainer as="main">
+    <div class="h-dvh">
+      <HBox class="h-full w-full">
+        <CBox class="h-full w-full">
+          <VBox>
+            <p>left 1</p>
+            <p>left 2</p>
+          </VBox>
+        </CBox>
+        <CBox class="h-full w-full">
+          <p>right</p>
+        </CBox>
+      </HBox>
+    </div>
+    <div class="h-dvh place-content-center text-center" id="price">Цены</div>
+    <div class="h-dvh place-content-center text-center" id="place">Где салон?</div>
+    <div class="h-dvh place-content-center text-center" id="who_am_I">Кто я</div>
+    <div class="h-dvh place-content-center text-center">Фото</div>
+    <div class="h-dvh place-content-center text-center">Ссылки</div>
   </UContainer>
 </template>
