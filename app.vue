@@ -21,7 +21,12 @@ useSeoMeta({
           </VBox>
         </CBox>
         <CBox class="h-full w-full">
-          <p>right</p>
+          <div class="grid grid-cols-2 gap-3" style="padding: 6dvh 0px !important;">  
+            <NuxtImg src="img/natural blonde.webp" alt="блонд натуральный" height="220px"/>
+            <NuxtImg src="img/natural blonde.webp" alt="блонд натуральный" height="220px"/>
+            <NuxtImg src="img/natural blonde.webp" alt="блонд натуральный" height="220px"/>
+            <NuxtImg src="img/natural blonde.webp" alt="блонд натуральный" height="220px"/>
+          </div>
         </CBox>
       </HBox>
     </div>
