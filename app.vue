@@ -59,7 +59,21 @@ useSeoMeta({
         </VBox>
       </VBox>
     </div>
-    <div class="h-dvh place-content-center text-center" id="place">Где салон?</div>
+    <div class="h-dvh" id="place">
+      <VBox>
+        <UDivider class="py-12 h-32 text-xl">Где салон?</UDivider>
+        <VBox style="width: 400px;">
+          <UButton 
+            label="Екатеринбург, Улица 8 Марта, 121"
+            color="black"
+            variant="link"
+            icon="i-heroicons-clipboard-document"
+            class="mb-2 w-auto"
+          />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.581800566313!2d60.60902666858604!3d56.81025832309467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16fa82b188ae7%3A0xc3871d48ad6b839c!2z0JHRjNGO0YLQuC3QmtC-0LLQvtGA0LrQuNC90LMgQ2hlcnJ5!5e1!3m2!1sru!2sru!4v1724447634591!5m2!1sru!2sru" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </VBox>
+      </VBox>
+    </div>
     <div class="h-dvh place-content-center text-center" id="who_am_I">Кто я</div>
     <div class="h-dvh place-content-center text-center">Фото</div>
     <div class="h-dvh place-content-center text-center">Ссылки</div>
