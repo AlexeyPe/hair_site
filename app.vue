@@ -88,7 +88,7 @@
           <HBox class="gap-1">
             <iframe title="карта расположения салона" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.581800566313!2d60.60902666858604!3d56.81025832309467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16fa82b188ae7%3A0xc3871d48ad6b839c!2z0JHRjNGO0YLQuC3QmtC-0LLQvtGA0LrQuNC90LMgQ2hlcnJ5!5e1!3m2!1sru!2sru!4v1724447634591!5m2!1sru!2sru" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <NuxtImg src="img/salon 1.jpg" alt="фото салона" width="450px" class="h-fit self-center"/>
-            <NuxtImg src="img/salon 2.jpg" alt="фото салона" height="400px" class="h-fit"/>
+            <NuxtImg src="img/salon 2.jpg" alt="фото салона" height="400px" class="w-fit"/>
           </HBox>
       </VBox>
     </div>
