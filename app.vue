@@ -1,11 +1,11 @@
 <script setup lang="ts">
   const toast = useToast()
   useSeoMeta({
-    title: 'My Amazing Site',
-    ogTitle: 'My Amazing Site',
-    description: 'This is my amazing site, let me tell you all about it.',
-    ogDescription: 'This is my amazing site, let me tell you all about it.',
-    ogImage: 'https://example.com/image.png',
+    title: 'Алексей Пе - Окрашивание блонд',
+    ogTitle: 'Алексей Пе - Окрашивание блонд',
+    description: 'Алексей Пе - Окрашивание блонд, тотал блонд, стальной блонд',
+    ogDescription: 'Алексей Пе - Окрашивание блонд, тотал блонд, стальной блонд',
+    // ogImage: 'https://example.com/image.png',
     twitterCard: 'summary_large_image',
   })
 
@@ -26,8 +26,8 @@
 
 <template>
   <MainHeader/>
-  <UContainer as="main">
-    <div class="h-dvh">
+  <UContainer as="main" class="snap-y">
+    <div class="h-dvh snap-start">
       <HBox class="h-full w-full">
         <CBox class="h-full w-full">
           <VBox>
@@ -55,7 +55,7 @@
         </CBox>
       </HBox>
     </div>
-    <div class="h-dvh" id="price">
+    <div class="h-dvh snap-start" id="price">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Цены</UDivider>
         <p class="text-xl mb-3">Окрашивание корней — хххх руб.</p>
@@ -74,7 +74,7 @@
         </VBox>
       </VBox>
     </div>
-    <div class="h-dvh" id="place">
+    <div class="h-dvh snap-center" id="place">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Где салон?</UDivider>
         <UButton
@@ -92,9 +92,9 @@
           </HBox>
       </VBox>
     </div>
-    <div class="h-dvh place-content-center text-center" id="who_am_I">Кто я</div>
-    <div class="h-dvh place-content-center text-center">Фото</div>
-    <div class="h-dvh place-content-center text-center">Ссылки</div>
+    <div class="h-dvh" id="photo">
+      <UDivider class="py-12 h-32 text-xl">Фото</UDivider>
+    </div>
   </UContainer>
   <UNotifications />
 </template>

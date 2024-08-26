@@ -20,8 +20,8 @@
       to:"#place"
       // icon: 'i-heroicons-home',
     }, {
-      label: 'Кто я?',
-      to:"#who_am_I"
+      label: 'Фото',
+      to:"#photo"
       // icon: 'i-heroicons-chart-bar',
     },
   ]
