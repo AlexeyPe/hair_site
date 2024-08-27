@@ -95,8 +95,12 @@
     <div class="h-dvh" id="photo">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Фото</UDivider>
-        <HBox>
+        <HBox class="gap-4 justify-center mx-4">
+          <ImgCard src="img/blonde pink 2.jpg" alt="блонд розовый" desc="Окрашивание корней + смена тона, блонд розовый"/>
+          <ImgCard src="img/total blonde 3.png" alt="тотал блонд" desc="Окрашивание всей длины, тотал блонд"/>
           <ImgCard src="img/natural blonde.webp" alt="блонд натуральный" desc="Окрашивание всей длины, натуральный блонд"/>
+          <ImgCard src="img/total blonde 1.webp" alt="тотал блонд" desc="Окрашивание корней"/>
+          <ImgCard src="img/total blonde 2.jpg" alt="стальной блонд" desc="Окрашивание корней"/>
         </HBox>
       </VBox>
     </div>
