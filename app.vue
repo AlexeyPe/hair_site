@@ -93,7 +93,12 @@
       </VBox>
     </div>
     <div class="h-dvh" id="photo">
-      <UDivider class="py-12 h-32 text-xl">Фото</UDivider>
+      <VBox>
+        <UDivider class="py-12 h-32 text-xl">Фото</UDivider>
+        <HBox>
+          <ImgCard src="img/natural blonde.webp" alt="блонд натуральный" desc="Окрашивание всей длины, натуральный блонд"/>
+        </HBox>
+      </VBox>
     </div>
   </UContainer>
   <UNotifications />
