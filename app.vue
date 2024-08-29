@@ -45,7 +45,7 @@
             <a href="#price" class="text-sm underline font-normal ">Показать цены</a>
           </VBox>
         </CBox>
-        <CBox class="h-full w-full">
+        <CBox class="h-full w-full max-md:hidden">
           <div class="grid grid-cols-2 gap-3" style="padding: 6dvh 0px !important;">  
             <NuxtImg src="img/natural blonde.webp" alt="блонд натуральный" width="220px" height="220px"/>
             <NuxtImg src="img/natural blonde.webp" alt="блонд натуральный" width="220px" height="220px"/>
@@ -74,7 +74,7 @@
         </VBox>
       </VBox>
     </div>
-    <div class="h-dvh snap-center" id="place">
+    <div class="h-dvh snap-center max-md:h-fit" id="place">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Где салон?</UDivider>
         <UButton
@@ -85,17 +85,17 @@
             icon="i-heroicons-clipboard-document"
             class="mb-2 w-fit"
             />
-          <HBox class="gap-1">
-            <iframe title="карта расположения салона" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.581800566313!2d60.60902666858604!3d56.81025832309467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16fa82b188ae7%3A0xc3871d48ad6b839c!2z0JHRjNGO0YLQuC3QmtC-0LLQvtGA0LrQuNC90LMgQ2hlcnJ5!5e1!3m2!1sru!2sru!4v1724447634591!5m2!1sru!2sru" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <NuxtImg src="img/salon 1.jpg" alt="фото салона" width="450px" class="h-fit self-center"/>
-            <NuxtImg src="img/salon 2.jpg" alt="фото салона" width="260px" class="h-fit self-center"/>
+          <HBox class="gap-1 max-md:flex-col">
+            <iframe title="карта расположения салона" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.581800566313!2d60.60902666858604!3d56.81025832309467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16fa82b188ae7%3A0xc3871d48ad6b839c!2z0JHRjNGO0YLQuC3QmtC-0LLQvtGA0LrQuNC90LMgQ2hlcnJ5!5e1!3m2!1sru!2sru!4v1724447634591!5m2!1sru!2sru" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
+            <NuxtImg src="img/salon 1.jpg" alt="фото салона" width="450px" class="w-full h-fit self-center"/>
+            <NuxtImg src="img/salon 2.jpg" alt="фото салона" width="260px" class="h-fit self-center max-md:hidden"/>
           </HBox>
       </VBox>
     </div>
     <div class="h-dvh" id="photo">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Фото</UDivider>
-        <HBox class="gap-4 justify-center mx-4">
+        <HBox class="mx-4 gap-2 md:gap-4 max-md:grid max-md:grid-cols-2 max-md:mb-32">
           <ImgCard src="img/blonde pink 2.jpg" alt="блонд розовый" desc="Окрашивание корней + смена тона, блонд розовый"/>
           <ImgCard src="img/total blonde 3.png" alt="тотал блонд" desc="Окрашивание всей длины, тотал блонд"/>
           <ImgCard src="img/natural blonde.webp" alt="блонд натуральный" desc="Окрашивание всей длины, натуральный блонд"/>
