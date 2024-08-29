@@ -55,7 +55,7 @@
         </CBox>
       </HBox>
     </div>
-    <div class="h-dvh snap-start" id="price">
+    <div class="h-vh md:h-dvh snap-start" id="price">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Цены</UDivider>
         <p class="text-xl mb-3">Окрашивание корней — хххх руб.</p>
@@ -74,7 +74,7 @@
         </VBox>
       </VBox>
     </div>
-    <div class="h-dvh snap-center max-md:h-fit" id="place">
+    <div class="h-vh md:h-dvh snap-center max-md:h-fit" id="place">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Где салон?</UDivider>
         <UButton
@@ -92,7 +92,7 @@
           </HBox>
       </VBox>
     </div>
-    <div class="h-dvh" id="photo">
+    <div class="h-vh md:h-dvh" id="photo">
       <VBox>
         <UDivider class="py-12 h-32 text-xl">Фото</UDivider>
         <HBox class="mx-4 gap-2 md:gap-4 max-md:grid max-md:grid-cols-2 max-md:mb-32">
