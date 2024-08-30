@@ -8,6 +8,14 @@
     // ogImage: 'https://example.com/image.png',
     twitterCard: 'summary_large_image',
   })
+  useHead({
+    script: [ { innerHTML: "(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\r\n   m[i].l=1*new Date();\r\n   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}\r\n   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\r\n   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\r\n\r\n   ym(98205847, \"init\", {\r\n        clickmap:true,\r\n        trackLinks:true,\r\n        accurateTrackBounce:true,\r\n        webvisor:true\r\n   });" } ],
+    noscript: [
+    {
+      children: `<div><img src="https://mc.yandex.ru/watch/98205847" style="position:absolute; left:-9999px;" alt="" /></div>`, body: true
+    }
+  ]
+  })
 
   async function copy_adr() {
     await navigator.clipboard.writeText('Екатеринбург, Улица 8 Марта, 121, салон Cherry')

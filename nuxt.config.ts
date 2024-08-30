@@ -7,7 +7,13 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      htmlAttrs: { lang: 'en' }
+      htmlAttrs: { lang: 'en' },
+      // noscript: [
+      //   {
+      //     children: `<div><img src="https://mc.yandex.ru/watch/98205847" style="position:absolute; left:-9999px;" alt="" /></div>`,
+          
+      //   },
+      // ]
     },
   },
 })
