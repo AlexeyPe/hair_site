@@ -27,7 +27,7 @@
 <template>
   <MainHeader/>
   <UContainer as="main" class="snap-y">
-    <div class="h-dvh snap-start">
+    <div class="h-min md:h-dvh snap-start">
       <HBox class="h-full w-full">
         <CBox class="h-full w-full">
           <VBox>
