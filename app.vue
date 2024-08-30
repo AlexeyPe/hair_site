@@ -27,7 +27,7 @@
 <template>
   <MainHeader/>
   <UContainer as="main" class="snap-y">
-    <div class="h-min md:h-dvh snap-start">
+    <div class="h-min md:h-dvh max-md:min-h-[600px] content-center">
       <HBox class="h-full w-full">
         <CBox class="h-full w-full">
           <VBox>
@@ -55,9 +55,9 @@
         </CBox>
       </HBox>
     </div>
-    <div class="h-min md:h-dvh snap-start" id="price">
+    <div class="h-min md:h-dvh max-md:min-h-[600px] content-center" id="price">
       <VBox>
-        <UDivider class="py-12 h-32 text-xl">Цены</UDivider>
+        <UDivider class="py-12 md:h-32 max-md:pt-20 max-md:pb-8 text-xl">Цены</UDivider>
         <p class="text-xl mb-3">Окрашивание корней — хххх руб.</p>
         <p class="text-xl mb-2">Окрашивание всей длины:</p>
         <p class="text-lg ">ㅤㅤДлина до подбородка — хххх руб.</p>
@@ -74,9 +74,9 @@
         </VBox>
       </VBox>
     </div>
-    <div class="h-min md:h-dvh snap-center max-md:h-fit" id="place">
+    <div class="h-min md:h-dvh" id="place">
       <VBox>
-        <UDivider class="py-12 h-32 text-xl">Где салон?</UDivider>
+        <UDivider class="py-12 md:h-32 max-md:pt-20 max-md:pb-8 text-xl">Где салон?</UDivider>
         <UButton
             @click="copy_adr()"
             label="Екатеринбург, Улица 8 Марта, 121, салон Cherry"
@@ -94,7 +94,7 @@
     </div>
     <div class="h-min md:h-dvh" id="photo">
       <VBox>
-        <UDivider class="py-12 h-32 text-xl">Фото</UDivider>
+        <UDivider class="py-12 md:h-32 max-md:pt-20 max-md:pb-8 text-xl">Фото</UDivider>
         <HBox class="mx-4 gap-2 md:gap-4 max-md:grid max-md:grid-cols-2 max-md:mb-32">
           <ImgCard src="img/blonde pink 2.jpg" alt="блонд розовый" desc="Окрашивание корней + смена тона, блонд розовый"/>
           <ImgCard src="img/total blonde 3.png" alt="тотал блонд" desc="Окрашивание всей длины, тотал блонд"/>
